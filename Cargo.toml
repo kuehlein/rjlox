@@ -1,0 +1,10 @@
+[package]
+name = "rjlox"
+version = "0.1.0"
+authors = ["Kyle Uehlein <kyleuehlein@gmail.com>"]
+edition = "2021"
+description = "Rust implementation of jlox - Crafting Interpreters"
+
+
+[dependencies]
+phf = { version = "0.11", features = ["macros"] }
